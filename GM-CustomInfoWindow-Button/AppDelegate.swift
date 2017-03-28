@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  GM-CustomInfoWindow-Button
 //
-//  Created by Marla Narazani on 22/03/2017.
+//  Created by Marla Na on 22/03/2017.
 //
 //
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyDzM-FurGFcFfnAvzIvEuA-OHRmlaUt9kE")
         return true
     }
 
