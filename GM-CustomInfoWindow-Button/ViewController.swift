@@ -30,7 +30,7 @@ class ViewController: UIViewController, GMSMapViewDelegate ,UIGestureRecognizerD
     
     
     @IBOutlet weak var textview: UITextView!
-    @IBOutlet weak var test: UITextField!
+   // @IBOutlet weak var test: UITextField!
    
     
     override func viewDidLoad() {
@@ -65,8 +65,8 @@ class ViewController: UIViewController, GMSMapViewDelegate ,UIGestureRecognizerD
         
         textview.textColor = UIColor.lightGray
         testviewsecond.textColor = UIColor.lightGray
-        test.isEnabled = true
-        test.isUserInteractionEnabled = true
+        //test.isEnabled = true
+       // test.isUserInteractionEnabled = true
         //Set Extra Light Blur View
       /*  blurEffectExtraLight = UIBlurEffect(style: UIBlurEffectStyle.extraLight)
         blurViewExtraLight = UIVisualEffectView(effect: blurEffectExtraLight!)
